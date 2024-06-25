@@ -1,0 +1,18 @@
+Date: 25-June-2024 
+
+1. To run sever - python manage.py runserver.
+2. To migrate server - python manage.py migrate -> Run when you make core changes. 
+3. Static files like css and js should be stored in separate folders that are inturn
+present under a folder called static static-css, static-js.
+4. html files to be put into a folder called templates.
+5. One Project can have multiple apps.
+6. Make updates in settings.py to look for static and templates folder if necessary.
+7. urls.py to be upadated to include the urls of your app. 
+8. There will one core urls.py for project that, and each app has its own urls.py file to manage
+individual pages.
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VicharAI</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'myapp/css/styles.css' %}">
+</head>
+<body>
+    <div class="header">Welcome to VicharAI</div>
+    <div class="middle">
+        <div class="instruction">Click on Play button to play news</div>
+        <div class="buttons">
+            <button id="prevButton" class="control-button">&#9664;&#9664;</button>
+            <button id="playPauseButton" class="control-button">&#9658;</button>
+            <button id="nextButton" class="control-button">&#9654;&#9654;</button> 
+        </div>
+    </div>
+    <div class="color-options">
+        <select onchange="changeColors(this.value)">
+            <option value="#007bff,#fff" class="color-option"></option>
+            <option value="#28a745,#fff" class="color-option"></option>
+            <option value="#ff4757,#fff" class="color-option"></option>
+        </select>
+    </div>
+
+    <script src="{% static 'myapp/js/scripts.js' %}"></script>
+</body>
+</html>
