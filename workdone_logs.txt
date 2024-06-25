@@ -11,6 +11,12 @@ present under a folder called static static-css, static-js.
 8. There will one core urls.py for project that, and each app has its own urls.py file to manage
 individual pages.
 
+Url for Django Learning - https://www.youtube.com/watch?v=jBzwzrDvZ18
+
+Next Steps:
+1. Start working on scraping news from sources. 
+2. Automate it to run every 5 mins.
+3. Store news with serial number in database.
 
 
 
