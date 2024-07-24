@@ -4,7 +4,7 @@ Idea: To create a web app that summarizes news to 30 secs or less and delivers i
 Features:
     1. Infinity news.
     2. Categorical sorting.
-    3. Same news in multiple languages. 
+    3. Same news in multiple languages.ccf
     4. Usability as website as well as application. 
 
 Implementation steps:
